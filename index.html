@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="style.css">
+</body>
+</html>
+<nav id="navbar">
+  <header>Python</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">What is Python</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What is the main use of Python</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript_and_Java">Data Analysis and Machine Learning</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Web Development</a></li>
+    <li><a class="nav-link" href="#Variables">Automation or Scripting</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Software testing and prototyping</a>
+    </li>
+    <li><a class="nav-link" href="#Variable_scope">Everyday tasks</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>What is Phyton</header>
+    <article>
+      <p>
+        Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general purpose language, meaning it can be used to create a variety of different programs and isn’t specialized for any specific problems. This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today. A survey conducted by industry analyst firm RedMonk found that it was the most popular programming language among developers in 2020
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="What is the main use of Python ">
+    <header>What is the main use of Python</header>
+    <article>
+      <p>Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances.
+
+“Writing programs is a very creative and rewarding activity,” says University of Michigan and Coursera instructor Charles R Severance in his book Python for Everybody. “You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem.”</p>
+    </article>
+  </section>
+  <section class="main-section" id="JavaScript_and_Java">
+    <header>Data Analysis and Machine Learning</header>
+    <article>
+      <p>
+        Python has become a staple in data science, allowing data analysts and other professionals to use the language to conduct complex statistical calculations, create data visualizations, build machine learning algorithms, manipulate and analyze data, and complete other data-related tasks.
+
+Python can build a wide range of different data visualizations, like line and bar graphs, pie charts, histograms, and 3D plots. Python also has a number of libraries that enable coders to write programs for data analysis and machine learning more quickly and efficiently, like TensorFlow and Keras.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Hello_world">
+    <header>Web Development</header>
+    <article>
+      
+     <p>Python is often used to develop the back end of a website or application—the parts that a user doesn’t see. Python’s role in web development can include sending data to and from servers, processing data and communicating with databases, URL routing, and ensuring security. Python offers several frameworks for web development. Commonly used ones include Django and Flask.
+
+Some web development jobs that use Python include back end engineers, full stack engineers, Python developers, software engineers, and DevOps engineers.
+    </p>
+    </article>
+  </section>
+  <section class="main-section" id="Variables">
+    <header>Automation or Scripting</header>
+    <p>
+      If you find yourself performing a task over and over again, you could work more efficiently by automating it with Python. Writing code used to build these automated processes is called scripting. In the coding world, automation can be used to check for errors across multiple files, convert files, execute simple math, and remove duplicates in data.
+
+Python can even be used by relative beginners to automate simple tasks on the computer—such as renaming files, finding and downloading online content or sending emails or texts at desired intervals.
+    </p>
+  </section>
+  <section class="main-section" id="Declaring_variables">
+    <header>Software testing and prototyping</header>
+    <article>
+      <p>
+       In software development, Python can aid in tasks like build control, bug tracking, and testing. With Python, software developers can automate testing for new products or features. Some Python tools used for software testing include Green and Requestium.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Variable_scope">
+    <header>Everyday tasks</header>
+    <article>
+      <p>
+       Python isn't only for programmers and data scientists. Learning Python can open new possibilities for those in less data-heavy professions, like journalists, small business owners, or social media marketers. Python can also enable non-programmer to simplify certain tasks in their lives.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Global_variables">
+    <header>Global variables</header>
+    <article>
+      <p>
+        Global variables are in fact properties of the global object. In web
+        pages the global object is window, so you can set and access global
+        variables using the window.variable syntax.
+      </p>
+
+      <p>
+        Consequently, you can access global variables declared in one window or
+        frame from another window or frame by specifying the window or frame
+        name. For example, if a variable called phoneNumber is declared in a
+        document, you can refer to this variable from an iframe as
+        parent.phoneNumber.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Constants">
+    <header>Constants</header>
+    <article>
+      <p>
+        You can create a read-only, named constant with the const keyword. The
+        syntax of a constant identifier is the same as for a variable
+        identifier: it must start with a letter, underscore or dollar sign and
+        can contain alphabetic, numeric, or underscore characters.
+      </p>
+
+      <code>const PI = 3.14;</code>
+      <p>
+        A constant cannot change value through assignment or be re-declared
+        while the script is running. It has to be initialized to a value.
+      </p>
+
+      <p>
+        The scope rules for constants are the same as those for let block scope
+        variables. If the const keyword is omitted, the identifier is assumed to
+        represent a variable.
+      </p>
+
+      <p>
+        You cannot declare a constant with the same name as a function or
+        variable in the same scope. For example:
+      </p>
+
+      <code
+        >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+        CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+        }</code
+      >
+      However, object attributes are not protected, so the following statement
+      is executed without problems.
+      <code
+        >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code
+      >
+    </article>
+  </section>
+  <section class="main-section" id="Data_types">
+    <header>Data types</header>
+    <article>
+      <p>The latest ECMAScript standard defines seven data types:</p>
+      <ul>
+        <li>
+          <p>Six data types that are primitives:</p>
+          <ul>
+            <li>Boolean. true and false.</li>
+            <li>
+              null. A special keyword denoting a null value. Because JavaScript
+              is case-sensitive, null is not the same as Null, NULL, or any
+              other variant.
+            </li>
+            <li>undefined. A top-level property whose value is undefined.</li>
+            <li>Number. 42 or 3.14159.</li>
+            <li>String. "Howdy"</li>
+            <li>
+              Symbol (new in ECMAScript 2015). A data type whose instances are
+              unique and immutable.
+            </li>
+          </ul>
+        </li>
+
+        <li>and Object</li>
+      </ul>
+      Although these data types are a relatively small amount, they enable you
+      to perform useful functions with your applications. Objects and functions
+      are the other fundamental elements in the language. You can think of
+      objects as named containers for values, and functions as procedures that
+      your application can perform.
+    </article>
+  </section>
+  <section class="main-section" id="if...else_statement">
+    <header>if...else statement</header>
+    <article>
+      Use the if statement to execute a statement if a logical condition is
+      true. Use the optional else clause to execute a statement if the condition
+      is false. An if statement looks as follows:
+
+      <code>if (condition) { statement_1; } else { statement_2; }</code>
+      condition can be any expression that evaluates to true or false. See
+      Boolean for an explanation of what evaluates to true and false. If
+      condition evaluates to true, statement_1 is executed; otherwise,
+      statement_2 is executed. statement_1 and statement_2 can be any statement,
+      including further nested if statements.
+      <p>
+        You may also compound the statements using else if to have multiple
+        conditions tested in sequence, as follows:
+      </p>
+      <code
+        >if (condition_1) { statement_1; } else if (condition_2) { statement_2;
+        } else if (condition_n) { statement_n; } else { statement_last; }
+      </code>
+      In the case of multiple conditions only the first logical condition which
+      evaluates to true will be executed. To execute multiple statements, group
+      them within a block statement ({ ... }) . In general, it's good practice
+      to always use block statements, especially when nesting if statements:
+
+      <code
+        >if (condition) { statement_1_runs_if_condition_is_true;
+        statement_2_runs_if_condition_is_true; } else {
+        statement_3_runs_if_condition_is_false;
+        statement_4_runs_if_condition_is_false; }</code
+      >
+      It is advisable to not use simple assignments in a conditional expression,
+      because the assignment can be confused with equality when glancing over
+      the code. For example, do not use the following code:
+      <code>if (x = y) { /* statements here */ }</code> If you need to use an
+      assignment in a conditional expression, a common practice is to put
+      additional parentheses around the assignment. For example:
+
+      <code>if ((x = y)) { /* statements here */ }</code>
+    </article>
+  </section>
+  <section class="main-section" id="while_statement">
+    <header>while statement</header>
+    <article>
+      A while statement executes its statements as long as a specified condition
+      evaluates to true. A while statement looks as follows:
+
+      <code>while (condition) statement</code> If the condition becomes false,
+      statement within the loop stops executing and control passes to the
+      statement following the loop.
+
+      <p>
+        The condition test occurs before statement in the loop is executed. If
+        the condition returns true, statement is executed and the condition is
+        tested again. If the condition returns false, execution stops and
+        control is passed to the statement following while.
+      </p>
+
+      <p>
+        To execute multiple statements, use a block statement ({ ... }) to group
+        those statements.
+      </p>
+
+      Example:
+
+      <p>The following while loop iterates as long as n is less than three:</p>
+
+      <code>var n = 0; var x = 0; while (n &lt; 3) { n++; x += n; }</code>
+      <p>
+        With each iteration, the loop increments n and adds that value to x.
+        Therefore, x and n take on the following values:
+      </p>
+
+      <ul>
+        <li>After the first pass: n = 1 and x = 1</li>
+        <li>After the second pass: n = 2 and x = 3</li>
+        <li>After the third pass: n = 3 and x = 6</li>
+      </ul>
+      <p>
+        After completing the third pass, the condition n &lt; 3 is no longer
+        true, so the loop terminates.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Function_declarations">
+    <header>Function declarations</header>
+    <article>
+      A function definition (also called a function declaration, or function
+      statement) consists of the function keyword, followed by:
+
+      <ul>
+        <li>The name of the function.</li>
+        <li>
+          A list of arguments to the function, enclosed in parentheses and
+          separated by commas.
+        </li>
+        <li>
+          The JavaScript statements that define the function, enclosed in curly
+          brackets, { }.
+        </li>
+      </ul>
+      <p>
+        For example, the following code defines a simple function named square:
+      </p>
+
+      <code>function square(number) { return number * number; }</code>
+      <p>
+        The function square takes one argument, called number. The function
+        consists of one statement that says to return the argument of the
+        function (that is, number) multiplied by itself. The return statement
+        specifies the value returned by the function.
+      </p>
+      <code>return number * number;</code>
+      <p>
+        Primitive parameters (such as a number) are passed to functions by
+        value; the value is passed to the function, but if the function changes
+        the value of the parameter, this change is not reflected globally or in
+        the calling function.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python"
+            target="_blank"
+            >MDN</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
